@@ -299,6 +299,57 @@ body{
     margin: 68px 24px !important;  
 }
 
+/******* Boxes Section *******/
+
+.boxes-section-bg{
+    background: url(../images/bg_content_area.png);
+    width: 100%;
+    background-size: 100% auto;
+    padding-top: 70px; 
+    padding-bottom: 40px; 
+}
+.box-title-border:after {
+    position: absolute;
+    content: '';
+    background: #e1d36d;
+    height: 2px;
+    width: 58px;
+    margin-top: 23px;
+    margin-left: -54px;
+}
+.white-bg-header{
+  background: #fff;
+}
+.grey-footer-bg{
+  background: #e5e5e5;
+}
+.btn-light-large{
+    text-transform: uppercase;
+    background-image: linear-gradient(#92d79f,#56c2af);
+    padding: 7px 26px !important;
+    border: transparent !important;
+    color: #ffff !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+}
+.btn-light-large i{
+    margin-left: 6px;
+    font-size: 15px;
+    position: relative;
+    top: 1px;
+}
+.remove-box-shadow{
+    box-shadow: none !important;
+}
+.dark-blue-bg{
+    background-image: linear-gradient(#31b8d7,#2e7bb6);
+}
+.lightdark-blue-bg{
+    background-image: linear-gradient(#7fbcfc,#9792fb);  
+}
+
+
+
 /******* Footer *******/
 .footer-bg{
     background: url(../images/footer.png);
