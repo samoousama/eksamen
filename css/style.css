@@ -12,13 +12,12 @@ body{
     border-bottom: 1px solid #cccccc91;  
 }
 .navbar-brand img{
-  height: 100px;
+    height: 100px;
 }
 .navbar-brand{
     background: #012e75;
     position: relative;
-    left: 29px;
-    margin-top: 66px;
+    margin-top: 87px;
 }
 .align-font{
     padding: 94px 0;
@@ -48,7 +47,7 @@ body{
 }
 .navigation-menu-top{
     position: relative;
-    left: 15%;
+    left: 10%;
 }
 .navigation-menu-bottom{
     position: relative;
@@ -63,7 +62,10 @@ body{
 .navigation-menu-bottom li:nth-child(2){
   margin-top: 5px;
 }
-
+.navbar-nav li a{
+  text-transform: uppercase;
+  font-size: 13px;
+}
 /********* Fix Navbar ***********/
 
 .nav-white-bg{
@@ -699,11 +701,15 @@ body{
     background-size: cover;  
 }
 .nav-bg .navigation-head{
-    height: auto;
+    height: auto !important;
+}
+.navbar-brand img{
+    top: 0 !important;
 }
 .navbar-brand{
     margin-top: 10px;  
     left: 10;
+    background: transparent !important;
 }
 .align-font {
     padding: 26px 0;
@@ -784,7 +790,6 @@ body{
      padding-top: 20px;
 }
 
-
 }/*end*/
 
 /******** 481 *********/
@@ -800,10 +805,14 @@ body{
     background-size: cover;  
 }
 .nav-bg .navigation-head{
-    height: auto;
+    height: auto !important;
 }
 .navbar-brand{
     margin-top: 10px;  
+    background: transparent !important;
+}
+.navbar-brand img{
+    top: 0 !important;
 }
 .align-font {
     padding: 26px 0;
@@ -908,7 +917,7 @@ body{
     background-size: cover;  
 }
 .nav-bg .navigation-head{
-    height: auto;
+    height: 70px;
 }
 .navbar-brand{
     margin-top: 10px;  
@@ -924,13 +933,21 @@ body{
 }
 .navigation-menu-top{
     position: relative;
-    left: 10%;
+    left: 0;
 }
 .navigation-menu-bottom{
     position: relative;
-    right: 10%;
+    right: 5%;
 }
-
+.navbar-brand img {
+    height: 68px;
+    position: relative;
+    left: 10px;
+    top: 17px;
+}
+.nav-white-bg .navbar-brand img{
+    top: 0;
+}
 /* Register */
 .form-box {
     background: url(../images/bg_white_with_triangle.png);
@@ -948,3 +965,20 @@ body{
 }
 
 }/*end*/
+
+@media(max-width: 1145px){
+.nav-bg{
+  background-size: cover ; 
+}
+.navigation-menu-top{
+    position: relative;
+    left: 0;
+}
+.navigation-menu-bottom{
+    position: relative;
+    right: 5%;
+}
+
+
+
+}
