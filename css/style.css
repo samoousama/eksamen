@@ -684,12 +684,14 @@ body{
 /******* Bedriftsokonomisk Analyse *******/
 
 .left-main-section{
-    margin-top: 30px;
+    margin-top: 60px;
     margin-bottom: 30px;
+    margin-right: 10px;
 } 
 .video-section{
-  background: #fff;
-  box-shadow: 1px 1px 10px #00000080;
+    background: #fff;
+    box-shadow: 1px 1px 10px #00000080;
+    border-radius: 8px 9px 0px 0px;
 }
 .video-section h3{
     margin: 27px 33px;
@@ -719,8 +721,17 @@ body{
     padding: 12px 0;  
     margin-bottom: 50px;
 }
+.course_overview_video_title{
+    padding: 22px 0;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    border: 1px solid #fff;
+    outline: 1px solid #fff;
+    outline-offset: -11px;
+}
 .btn-colum{
-  margin: 45px 31px;
+  margin: 45px 67px;
 }
 .btn-manage .btn-link:hover{
     color: #000000;
@@ -729,16 +740,17 @@ body{
 .btn-manage .btn-link{
     border: 2px solid #d8c327;
     color: #000000;
-    font-size: 16px;
+    font-size: 11px;
     text-transform: uppercase;
     font-weight: 500;
     border-radius: 36px;
     text-align: left;
-    padding: 8px 19px;
-    padding-right: 41px;
+    padding: 6px 19px;
+    padding-right: 33px;
+    line-height: 22px;
 }
 .btn-manage .btn-link img{
-    height: 20px;
+    height: 16px;
     margin-right: 3px;
     position: relative;
     top: -2px;
@@ -767,6 +779,31 @@ body{
 .headings-list li:nth-child(2){
     border-left: 2px solid #012e75;
     padding-left: 13px;  
+}
+.persontage-dots{
+    list-style: none;
+    margin: 19px 16px;
+    padding: 0;
+    float: right;
+}
+.persontage-dots li{
+    border: 1px solid #012e75;
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    border-radius: 18px;
+}
+.dark-dot{
+    background: #012e75;
+}
+.orange-dot:before {
+    background: #d6bf18;
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 12px;
+    margin: 1.7px 1px;
 }
 .innerBox{
     background: #f6f6f6;
@@ -848,6 +885,34 @@ body{
 }
 
 /******* List Section *******/
+.alllist-section:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 102.4%;
+    left: 8px;
+    top: -38px;
+    box-shadow: -23px 0px 23px #cccccc61;
+    background: #f7f7f7;
+    z-index: -1;
+}
+.right-shadow-allist:before{
+  box-shadow: none !important;
+}
+.right-shadow-allist:after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 103.4%;
+    top: -38px;
+    box-shadow: 22px 0px 23px #cccccc61;
+    background: #f7f7f7;
+    z-index: -1;
+    left: -18px;
+}
+.alllist-section {
+    margin: 60px 30px;
+}
 .alllist-section ul{
   list-style: none;
   margin: 0;
@@ -942,6 +1007,56 @@ body{
 #checked-List li:hover{
     cursor: pointer;
 }
+.stepimg img{
+    width: 55%;
+    margin: auto;
+    display: -webkit-box;
+}
+.form-section{
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.form-section input{
+    width: 100%;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: 2px solid #ccc;
+    background: transparent;
+    font-size: 15px;
+    color: #ccc;
+    margin-bottom: 14px;
+    padding-bottom: 4px;
+}
+.btnsend img{
+    position: relative;
+    top: -2px;
+    height: 10px;
+}
+.btnsend{
+    font-weight: 500;
+    background: transparent;
+    border: 1px solid #d8c327;
+    padding: 2px 9px;
+    border-radius: 28px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #012e75;
+    float: right;
+}
+.btnsend:focus{
+    outline: none !important;   
+}
+.form-section input:focus{
+    outline: none !important;     
+}
+
+
+
+
+
+
+
 
 
 /******* Footer *******/
