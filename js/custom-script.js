@@ -19,3 +19,9 @@ for (var i = 0; i < btns.length; i++) {
   this.className += " active";
   });
 }
+
+// Icons list 
+ $('.step-icons').on('click', 'li', function() {
+    $('.step-icons li.active').removeClass('active');
+    $(this).addClass('active');
+});

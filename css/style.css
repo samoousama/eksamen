@@ -1007,13 +1007,25 @@ body{
 #checked-List li:hover{
     cursor: pointer;
 }
-.stepimg img{
-    width: 55%;
-    margin: auto;
-    display: -webkit-box;
+.stepimg .step-icons{
+    list-style: none;
+    margin: 70px 0;
+    padding: 0;
+    text-align: center;
+}
+.stepimg .step-icons li{
+    display: inline-block;
+}
+.stepimg .step-icons li img{
+    height: 58px;
+    margin: 0 10px;   
+}
+.stepimg .step-icons li p {
+    line-height: 37px;
+    color: #ccc;
 }
 .form-section{
-    margin-top: 30px;
+    margin-top: 50px;
     margin-bottom: 70px;
 }
 .form-section input{
@@ -1050,8 +1062,22 @@ body{
 .form-section input:focus{
     outline: none !important;     
 }
-
-
+.step-icons li:hover{
+    cursor: pointer;
+}
+.step-icons li.active p{
+    color: #333;  
+    font-weight: 500 !important;
+}
+.step-icons:before {
+    position: absolute;
+    content: '';
+    background: #ccc;
+    width: 38%;
+    height: 1px;
+    margin: 30px 14px;
+    z-index: -1;
+}
 
 
 
@@ -1100,6 +1126,7 @@ body{
 /******* Media Query ***********/
 
 @media(min-width: 320px) and (max-width: 480px){
+
 .nav-white-bg{
   position: inherit !important;
 }  
@@ -1204,6 +1231,7 @@ body{
 /******** 481 *********/
 
 @media(min-width: 481px) and (max-width: 768px){
+
 .nav-white-bg{
   position: inherit !important;
 }  
@@ -1319,6 +1347,7 @@ body{
 /******** 1024 *********/
 
 @media(max-width: 1024px){
+
 .title-bar .triangularline{
     width: 100%;
 } 
@@ -1376,6 +1405,7 @@ body{
 }/*end*/
 
 @media(min-width: 769px) and (max-width: 991px){
+
 .nav-bg .navigation-head{
   height: auto;
 }
@@ -1389,6 +1419,7 @@ body{
 }/*end*/
 
 @media(min-width: 1146px) and (max-width: 1260px){
+
 .nav-bg{
   background-position: top;
 }
@@ -1398,6 +1429,7 @@ body{
 
 
 @media(max-width: 1145px){
+
 .nav-bg{
   background-size: cover ; 
 }
