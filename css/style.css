@@ -982,11 +982,11 @@ body{
     color: #ccc;
 }
 
-#checked-List li.active{
+.select-list li.active{
     border: 2px solid #012e75;
     color: #012e75;  
 }
-#checked-List li.active:before {
+.select-list li.active:before {
     content: "\f00c";
     font-family: FontAwesome;
     font-style: normal;
@@ -1004,7 +1004,7 @@ body{
     border-radius: 19px;
     padding: 2px 1px;
 }
-#checked-List li:hover{
+.select-list li:hover{
     cursor: pointer;
 }
 .stepimg .step-icons{
