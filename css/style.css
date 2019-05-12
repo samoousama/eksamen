@@ -25,10 +25,33 @@ body{
     color: #fff; 
 }
 .align-font h3{
-   text-transform: uppercase;
+    font-size: 23px;
+    text-transform: uppercase;
+    font-weight: 400;   
 }
 .align-font p {
     font-size: 11px;
+}
+.align-font p .fa-clock-o{
+    font-size: 21px;
+    position: relative;
+    top: 3px;
+}
+.align-font p .btn{
+    background: transparent;
+    border: 1px solid #fff;
+    font-size: 9px;
+    border-radius: 24px;
+    margin-left: 18px;
+    text-transform: uppercase;
+    padding-right: 35px;  
+    padding-left: 34px;
+}
+.align-font p .btn span{
+    font-size: 14px;
+    position: absolute;
+    margin-top: 0px;
+    margin-left: -24px;  
 }
 .logout-icon{
     height: 15px;
@@ -658,6 +681,267 @@ body{
     border-radius: 28px;
 }
 
+/******* Bedriftsokonomisk Analyse *******/
+
+.left-main-section{
+    margin-top: 30px;
+    margin-bottom: 30px;
+} 
+.video-section{
+  background: #fff;
+  box-shadow: 1px 1px 10px #00000080;
+}
+.video-section h3{
+    margin: 27px 33px;
+    font-size: 20px;
+    color: #012e75;
+}
+.video-section p{
+    float: right;
+    margin: 26px 39px;
+    font-size: 16px;
+    color: #8c8a8a;
+}
+.video-section p i{
+    font-size: 23px;
+    position: relative;
+    top: 2px;
+}
+.video-box{
+    line-height: 0;
+}
+.video-title{
+    background: #d6bf18;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 12px 0;  
+    margin-bottom: 50px;
+}
+.btn-colum{
+  margin: 45px 31px;
+}
+.btn-manage .btn-link:hover{
+    color: #000000;
+    text-decoration: none;
+}
+.btn-manage .btn-link{
+    border: 2px solid #d8c327;
+    color: #000000;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-radius: 36px;
+    text-align: left;
+    padding: 8px 19px;
+    padding-right: 41px;
+}
+.btn-manage .btn-link img{
+    height: 20px;
+    margin-right: 3px;
+    position: relative;
+    top: -2px;
+}
+.border-section{
+    margin-top: 30px;
+}
+.darkBorder{
+    border-top:1px solid #e2d675;  
+    border-left:1px solid #e2d675;  
+    border-right:1px solid #e2d675;  
+    margin:0 10px;
+}
+.headings-list{
+    list-style: none;
+    margin: 0;
+    padding: 19px 25px;
+}
+.headings-list li{
+    display: inline-block;
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 11px;
+    color: #012e75;
+}
+.headings-list li:nth-child(2){
+    border-left: 2px solid #012e75;
+    padding-left: 13px;  
+}
+.innerBox{
+    background: #f6f6f6;
+    box-shadow: 1px 1px 17px #ccc; 
+    padding-bottom: 1px;
+    margin-bottom: 60px;
+}
+.innerBox-border{
+    border-top: transparent !important;
+    border:1px solid #e2d675;  
+    margin:0 10px;
+    margin-bottom: 10px;
+}
+.titlebox{
+    padding:122px 37px;
+}
+.titlebox span{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #8a8787;
+}
+.titlebox h3{
+    font-size: 13px;
+    color: #012e75;
+    border-bottom: 2px solid #e2d675;
+}
+.lef-shadow{
+    background: #f7f7f7;
+    padding-left: 13px;
+    padding-top: 54px;
+    padding-right: 75px;
+    padding-bottom: 54px;
+}
+.select-list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.select-list li{
+    background: #edeef3;
+    border: 2px solid #c7c7cc;
+    padding: 6px 15px;
+    font-size: 12px;
+    margin-bottom: 11px;
+    color: #000;
+    font-weight: 500;
+}
+.btn-list{
+    background: #012e75;
+    color: #fff;
+    text-transform: uppercase;
+    border: transparent;
+    padding: 4px 16px;
+    font-size: 12px;
+    font-weight: 500;
+    border-radius: 28px;
+    margin-top: 10px;
+}
+.btn-list i{
+    font-size: 16px;
+    position: relative;
+    left: 3px;
+    top: 0.7px;  
+}
+.titlebox:after {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 337px;
+    top: 0px;
+    right: 0;
+    box-shadow: -9px 0px 14px -3px #ccc;
+}
+.slogan-text{
+    font-size: 18px;
+    color: #012e75;
+    margin-bottom: 30px;  
+}
+
+/******* List Section *******/
+.alllist-section ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.alllist-section ul li.active-title{
+    background: #012e75;
+    color: #fff;
+    padding: 7px 15px;
+    font-size: 13px; 
+}
+.alllist-section ul li.active-title i{
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 5px;
+    position: relative;
+    top: 1px;  
+}
+.alllist-section ul li span{
+    float: right;
+    margin-right: 4px;
+    position: relative;
+    top: 4px;
+}
+.alllist-section ul li span b{
+    margin-left: 5px;
+
+}
+.alllist-section ul li:nth-child(2){
+    color: #ccc;
+    padding: 13px 12px;
+    font-size: 13px;
+}
+.alllist-section ul li.activated {
+    font-size: 14px;
+    border: 1px solid #012e75;
+    padding: 9px 12px;
+    border-left: 11px solid #012e75;
+}
+.alllist-section ul li:nth-child(4){
+    color: #ccc;
+    padding: 7px 12px;
+    font-size: 13px;    
+}
+.alllist-section ul li:nth-child(5){
+    color: #012e75;
+    padding: 7px 12px;
+    font-size: 13px;      
+    border: 1px solid #012e75;
+}
+.alllist-section ul li:nth-child(6){
+    color: #ccc;
+    padding: 7px 12px;
+    font-size: 13px;    
+}
+.alllist-section ul li:nth-child(7){
+    color: #ccc;
+    padding: 7px 12px;
+    font-size: 13px;    
+}
+.alllist-section ul li.light-bg-list{
+    font-size: 14px;
+    border: 1px solid #ccc;
+    padding:4px 12px;
+    border-left: 11px solid #ccc;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+#checked-List li.active{
+    border: 2px solid #012e75;
+    color: #012e75;  
+}
+#checked-List li.active:before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    color: #fff;
+    font-size: 11px;
+    position: absolute;
+    right: 80px;
+    margin-top: -17px;
+    background: #012e75;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    border-radius: 19px;
+    padding: 2px 1px;
+}
+#checked-List li:hover{
+    cursor: pointer;
+}
 
 
 /******* Footer *******/
