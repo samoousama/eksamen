@@ -14,6 +14,13 @@ $(document).ready(function() {
  $('.step-icons').on('click', 'li', function() {
     $('.step-icons li.active').removeClass('active');
     $(this).addClass('active');
+
+$('.step-icons li').find('img').show();
+     $('.step-icons li').find('img.active').hide();
+     
+
+    $('.step-icons li.active').find('img').hide();
+    $('.step-icons li.active').find('img.active').show();
 });
 
  $('.select-list').on('click', 'li', function() {

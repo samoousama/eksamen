@@ -1404,6 +1404,10 @@ body{
 
 }/*end*/
 
+
+.step-icons li img.active{
+  display: none;
+}
 @media(min-width: 769px) and (max-width: 991px){
 
 .nav-bg .navigation-head{
