@@ -90,6 +90,7 @@ body{
   text-transform: uppercase;
   font-size: 13px;
 }
+
 /********* Fix Navbar ***********/
 
 .nav-white-bg{
@@ -119,6 +120,362 @@ body{
     background: transparent;
     margin-top: 0 !important;
 }
+
+/********* Home Page ***********/
+
+.home-bg{
+    background:linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)) 0% 0% / cover, url(../images/homebg.png);
+    background-size: 100% auto;
+    height: 700px;
+}
+.home-bg .navigation-head{
+    height: 70px;
+    border-bottom: 1px solid #cccccc91;  
+}
+.banner-headings{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 120px;
+}
+.banner-headings li{
+    font-size: 18px;
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    margin:4px 4px;
+}
+.banner-headings li:nth-child(1) {
+    height: 25px;
+    border-right: 2px solid #cccccc8c;
+    padding-right: 11px;
+}
+.banner-headings li:nth-child(2) {
+    height: 25px;
+    border-right:2px solid #cccccc8c;
+    padding-right: 11px;
+}
+.banner-headings li:nth-child(4) {
+    height: 25px;
+    border-right:2px solid #cccccc8c;
+    padding-right: 11px;
+}
+.banner-title{
+    text-align: center;
+    color: #d6bf18;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 10px 0;
+    margin-bottom: 90px;
+}
+.banner-register-title{
+    margin:30px 15px; 
+}
+.banner-register-title p{
+    color: #fff;
+    text-transform: uppercase;
+    border-bottom: 1px solid #d6bf18;
+    font-size: 17px;
+    padding-bottom: 8px;
+}
+.banner-register-title .btn-link{
+    padding: 0;
+    background: #d6bf18;
+    color: #fff;
+    border-radius: 0px;
+    line-height: 0px;
+    text-transform: uppercase;
+    font-size: 13px;
+    padding-right: 17px;
+}
+.banner-register-title .btn-link i{
+    border-right: 1px solid #fff;
+    padding: 6px 10px;  
+    margin-right: 7px;
+}
+.b4-colum p{
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.b4-colum img{
+  margin-bottom: 20px;
+}
+.b4-colum {
+    padding: 0 92px;
+}
+
+
+/********* Section 01 Home ***********/
+
+.mid-section-01{
+    background: url(../images/bg_content_area.png);
+    height: auto;
+    box-shadow: inset 6px -25px 27px #bdbdbd;
+    padding: 100px 0px;
+}
+.section-01-content h3{
+    font-size: 21px;
+    color: #012E75;
+    margin-bottom: 30px;
+}
+.section-01-content p{
+    font-size: 20px;
+    color: #333333;
+    line-height: 32px;
+    margin-bottom: 29px;
+}
+.section-01-boxes{
+    background: #fff;
+    padding: 21px 40px;
+    border-radius: 15px;
+    box-shadow:1px 1px 19px #ccc;
+    height: 190px;
+    margin: 0 10px;
+}
+.section-01-space{
+    margin-top: 50px;
+}
+.aret-01{
+    font-size: 18px;
+    text-align: center;
+    color: #012E75;
+    margin-bottom: 0px;
+}
+.s3-star{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.s3-star li{
+    display: inline-block;
+}
+.s3-star li i{
+    font-size: 10px;
+    color: #d6bf18;
+}
+.content-list-01{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 5px;
+}
+.content-list-01 li i{
+    font-size: 8px;
+    color: #d6bf18;
+    margin-right: 2px;
+    position: relative;
+    top: -1px;
+}
+.content-list-01 li{
+    font-size: 11px;
+    color: #000;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+.content-list-01 li:nth-child(4) i{
+    color: #ccc;
+}
+.content-list-01 li:nth-child(4){
+    color: #ccc;
+}
+.content-list-01 li:last-child{
+    color: #ccc;
+}
+.content-list-01 li:last-child i{
+    color: #ccc;
+}
+.bottomBox-sec01{
+    border:1px solid #D6BF18;
+    border-radius: 10px;
+    margin: 20px 10px;
+}
+.bottomBox-sec01 h3{
+    background: #D6BF18;
+    font-size: 13px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 9px 0;
+    color: #fff;
+    border-radius: 8px 8px 0px 0px;
+    margin:0;
+}
+.bottomBox-sec01-caption{
+    padding: 10px 30px;
+}
+.bottomBox-sec01-caption ul{
+    list-style: none;
+    margin:0;
+    padding: 0;
+}
+.bottomBox-sec01-caption ul li{
+    color: #ccc;
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+.bottomBox-sec01-caption ul li i{
+    color: #ccc;
+    font-size: 7px;
+    position: relative;
+    top: -2px;
+}
+.content-circle-price{
+    position: absolute;
+    top: -24px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    background-image: linear-gradient(#69c9b8, #7BCFA6,#e7f59b);
+    right: -16px;
+}
+.bg-2rT{
+    background-image: linear-gradient(#83d9fd, #ab95fc,#ab95fc);
+}
+.bg-3rT{
+    background-image: linear-gradient(#49e1ed, #357fb8,#357fb8);
+}
+.price-box{
+    font-size: 13px;
+    text-align: center;
+    background: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 27px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    padding: 14px 13px;
+    text-decoration: line-through;
+    color: #d6bf18;
+}
+.contentfb-btn .btn-link{
+    font-weight: 600;
+    margin-top: 30px;
+    border: 1px solid #D6BF18;
+    font-size: 14px;
+    color: #012e75;
+    border-radius: 7px;
+    padding-right: 25px;
+    padding-left: 27px;    
+}
+.contentfb-btn .btn-link i{
+    font-size: 22px;
+    position: absolute;
+    margin-left: -17px;  
+}
+
+/********* Section 02 Home ***********/
+
+.mid-section-02{
+    background: url(../images/bg_content_area.png);
+    height: 500px;
+    padding:70px 0px;
+}
+.section-02-content h3{
+    font-size: 21px;
+    color: #012E75;
+    margin-bottom: 30px;
+}
+
+/********* Section 03 Home ***********/
+
+.mid-section-03{
+    background:#012e75;
+}
+.bg-img-section-03{
+    background:linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.08)) 0% 0% / cover,url(../images/section-03bg.png);
+    height: 600px;
+    padding:100px 0px;
+    width: 100%;
+    background-size: cover ; 
+}
+.section-let-box-03 h3{
+    font-size: 20px;
+    color: #012E75;
+}
+.section-let-box-03{
+    margin: 0 11px;
+    background: rgba(255, 255, 255, 0.84);
+    padding: 82px 41px;
+    border-radius: 16px;
+    box-shadow: 1px 1px 20px #00000078;
+}
+.section-let-box-03 p{
+    font-size: 14px;
+    color: #000;
+    line-height: 25px;
+    margin-bottom: 0;
+    padding-top: 14px;
+}
+.section-right-box-03{
+    margin: 0px 30px;
+}
+.section-right-box-03 p{
+    color: #fff;
+    font-size: 16px;
+}
+.section-right-box-03 p{
+    margin-bottom: 5px;
+    line-height: 30px;
+}
+.left-border-paragraph {
+    border-left: 1px solid #D6BF18;
+    padding-left: 13px;
+    position: relative;
+    left: -13px;
+    margin-bottom: 20px !important;
+}
+
+/********* Section 04 Home ***********/
+
+.mid-section-04{
+    background: url(../images/bg_content_area.png);
+    padding:100px 0px;
+}
+.faq-title h3{
+    font-size: 21px;
+    text-align: center;
+    color: #012E75;
+    margin-bottom: 50px;
+}
+.faq-title h3:before{
+    position: absolute;
+    content: '';
+    background: #D6BF18;
+    height: 2px;
+    width: 5%;
+    margin: 29px -20px; 
+}
+.card-header{
+    border: 1px solid #dd9f14;
+    border-radius: 40px !important;
+    margin-bottom: 13px;
+    background: transparent;
+    text-align: center;
+}
+.card-header a{
+    font-size: 16px;
+    color: #333 !important;
+    font-weight: 100;
+    text-decoration: none;
+}
+.card{
+    border: none;
+    background: none !important;
+}
+.card-header .mb-0[aria-expanded=true]{
+    color: #fff;
+    background:#012E75 !important;
+}
+
+
+
+
+
+
+
+
 
 /********* Title Bar ***********/
 
