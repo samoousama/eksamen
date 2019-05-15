@@ -126,7 +126,7 @@ body{
 .home-bg{
     background:linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.68)) 0% 0% / cover, url(../images/homebg.png);
     background-size: 100% auto;
-    height: 700px;
+    padding-bottom: 50px;
 }
 .home-bg .navigation-head{
     height: 70px;
@@ -166,10 +166,10 @@ body{
     text-transform: uppercase;
     font-size: 14px;
     margin: 10px 0;
-    margin-bottom: 90px;
+    margin-bottom: 70px;
 }
 .banner-register-title{
-    margin:30px 15px; 
+    margin:65px 15px; 
 }
 .banner-register-title p{
     color: #fff;
@@ -199,12 +199,16 @@ body{
     text-transform: uppercase;
 }
 .b4-colum img{
-  margin-bottom: 20px;
+    margin-bottom: 20px;
+    height: 40px;
 }
 .b4-colum {
-    padding: 0 92px;
+    padding:0 78px;
 }
-
+.banner-col4 .col-md-4:nth-child(2) {
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
 
 /********* Section 01 Home ***********/
 
@@ -369,7 +373,7 @@ body{
 
 .mid-section-02{
     background: url(../images/bg_content_area.png);
-    height: 500px;
+    height: 700px;
     padding:70px 0px;
 }
 .section-02-content h3{
@@ -378,26 +382,100 @@ body{
     margin-bottom: 30px;
 }
 
+/* Carousel */
+
+.space-top-testimonial{
+    margin-top: 80px;
+}
+
+.testimonial-s1 img{
+    height: 400px;
+    width: 350px;
+    box-shadow: 1px 1px 22px #00000094;
+}
+.testimonial1-caption {
+    position: absolute;
+    background: #ffffffd9;
+    padding: 39px 38px;
+    padding-bottom: 12px !important;
+    margin-right: 31px;
+    margin-left: 17px;
+    bottom: 29px;
+}
+.testimonial1-caption h3{
+    margin: 0;
+    font-size: 15px;
+    color: #012661;
+    text-transform: uppercase;
+}
+.testimonial1-caption p{
+    text-align: left;
+    font-size: 11px;
+    line-height: 19px;
+    padding-top: 14px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+.star-lsit-testimonial{
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #d6bf18;
+    margin-top: 15px;
+}
+.star-lsit-testimonial li{
+    display: inline-block;
+    margin: 0 2px;
+}
+.star-lsit-testimonial li i{
+    color: #d6bf18;
+    font-size: 12px;
+    margin-top: 13px;
+}
+
+
+
 /********* Section 03 Home ***********/
 
 .mid-section-03{
     background:#012e75;
 }
+.topspace-section03{
+    margin-top: 50px;  
+}
 .bg-img-section-03{
     background:linear-gradient(rgba(0, 0, 0, 0.18), rgba(0, 0, 0, 0.08)) 0% 0% / cover,url(../images/section-03bg.png);
-    height: 600px;
-    padding:100px 0px;
+    padding:130px 0px;
     width: 100%;
     background-size: cover ; 
+}
+.bg-img-section-03:before {
+    position: absolute;
+    content: '';
+    background: linear-gradient(rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.6)) 0% 0% / cover,url(../images/laptop_person.png);
+    width: 300px;
+    height: 305px;
+    background-repeat: no-repeat;
+    left: 10%;
+    margin-top:92px;
+}
+.section-let-box-03:before{
+    position: absolute;
+    content: '';
+    background: url(../images/star_rising.png);
+    width: 200px;
+    height: 100px;
+    left: -25px;
+    top: -95px;
+    background-repeat: no-repeat;
 }
 .section-let-box-03 h3{
     font-size: 20px;
     color: #012E75;
 }
 .section-let-box-03{
-    margin: 0 11px;
+    margin: 0 25px;
     background: rgba(255, 255, 255, 0.84);
-    padding: 82px 41px;
+    padding: 82px 34px;
     border-radius: 16px;
     box-shadow: 1px 1px 20px #00000078;
 }

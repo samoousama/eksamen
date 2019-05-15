@@ -27,4 +27,7 @@ $('.step-icons li').find('img').show();
     $('.select-list li.active').removeClass('active');
     $(this).addClass('active');
 });
+
+
+ 
  
