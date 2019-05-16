@@ -8,17 +8,35 @@ body{
     background-position: bottom;    
     background-repeat: no-repeat;
 }
+.navigation-head:before {
+    position: absolute;
+    content: '';
+    top: 70px;
+    height: 1px;
+    background: #cccccc91;
+    width: 45%;
+    left: 0;
+}
+.navigation-head:after {
+    position: absolute;
+    content: '';
+    top: 70px;
+    height: 1px;
+    background: #cccccc91;
+    width: 45%;
+    right: 0;
+}
+
 .nav-bg .navigation-head{
     height: 70px;
-    border-bottom: 1px solid #cccccc91;  
 }
 .navbar-brand img{
     height: 100px;
 }
 .navbar-brand{
-    background:#011c46;
     position: relative;
-    margin-top: 87px;
+    top: 50px;
+    margin:0;
 }
 .align-font{
     padding: 94px 0;
@@ -119,6 +137,13 @@ body{
 .nav-white-bg .navbar-brand{
     background: transparent;
     margin-top: 0 !important;
+    top: 0;
+}
+.nav-white-bg:before{
+    background: #fff !important;
+}
+.nav-white-bg:after{
+    background: #fff !important;
 }
 
 /********* Home Page ***********/
@@ -130,7 +155,6 @@ body{
 }
 .home-bg .navigation-head{
     height: 70px;
-    border-bottom: 1px solid #cccccc91;  
 }
 .banner-headings{
     list-style: none;
@@ -991,7 +1015,12 @@ body{
   margin-bottom: 15px;
   margin-top: 10px;
 }
-
+.clicked{
+    background: #3680c9 !important;
+    border-radius: 0px !important;
+    border:none !important;
+    color: #fff !important;
+}
 .select select {
   display: inline-block;
     width: 100%;
@@ -1129,19 +1158,26 @@ body{
 }
 .nav-tabs-sec {
     border-bottom: transparent !important;
-    margin-top: -21px;
+    margin-top: -27px;
     position: relative;
     z-index: 9999;
 }
+
 .nav-tabs-sec li {
     background: #fff;
     border-radius: 28px;
     margin: 0 3px;
-    border: 1px solid #ccc;
+    padding: 5px 5px;
 }
+.nav-tabs li a {
+    border: 1px solid #ccc !important;
+    border-radius: 50% !important;
+}
+
 .nav-tabs-sec li .active{
     background: #fff;
     border-radius: 28px;
+    border-color: #d6bf18 !important;
 }
 
 /******* Bedriftsokonomisk Analyse *******/
@@ -1592,7 +1628,13 @@ body{
 
 .nav-white-bg{
   position: inherit !important;
-}  
+} 
+.navigation-head:before{
+    background: none;
+} 
+.navigation-head:after{
+    background: none;
+} 
 .title-bar .triangularline{
     width: 100%;
 } 
@@ -1608,6 +1650,7 @@ body{
 .navbar-brand{
     margin-top: 10px;  
     left: 10;
+    top: 0;
     background: transparent !important;
 }
 .align-font {
@@ -1697,7 +1740,14 @@ body{
 
 .nav-white-bg{
   position: inherit !important;
-}  
+}
+.navigation-head:before{
+    background: none;
+} 
+.navigation-head:after{
+    background: none;
+} 
+
 .title-bar .triangularline{
     width: 100%;
 } 
@@ -1710,6 +1760,7 @@ body{
 .navbar-brand{
     margin-top: 10px;  
     background: transparent !important;
+    top: 0;
 }
 .navbar-brand img{
     top: 0 !important;
@@ -1822,6 +1873,7 @@ body{
 }
 .navbar-brand{
     margin-top: 10px;  
+    top: 0;
 }
 .align-font {
     padding: 26px 0;
@@ -1843,7 +1895,6 @@ body{
 .navbar-brand img {
     height: 68px;
     position: relative;
-    left: 10px;
     top: 17px;
 }
 .nav-white-bg .navbar-brand img{

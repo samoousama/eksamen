@@ -28,6 +28,9 @@ $('.step-icons li').find('img').show();
     $(this).addClass('active');
 });
 
+$('.select select').click(function(){
+  $(this).toggleClass('clicked');
+});
 
  
  
